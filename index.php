@@ -35,6 +35,6 @@ $paragrafo_censurato= str_replace($parola_censurata, '***', $paragrafo);
     <hr>
     <h1>Paragrafo Censurato:</h1>
     <p><?php echo($paragrafo_censurato) ?></p>
-    <h3>Il paragrafo censurato è lungo <?php echo strlen($paragrafo) ?></h3>
+    <h3>Il paragrafo censurato è lungo <?php echo strlen($paragrafo_censurato) ?></h3>
 </body>
 </html>
