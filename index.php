@@ -1,3 +1,5 @@
+<?php
+
 /*
     Descrizione:
     Creare una variabile con un paragrafo di testo a vostra scelta.
@@ -7,7 +9,6 @@
     dopo aver sostituito con tre asterischi (***)
     tutte le occorrenze della parola da censurare.
 */
-<?php
 
 $paragrafo ='Godi, fanciullo mio; stato soave,
 Stagion lieta è cotesta.
@@ -34,6 +35,6 @@ $paragrafo_censurato= str_replace($parola_censurata, '***', $paragrafo);
     <hr>
     <h1>Paragrafo Censurato:</h1>
     <p><?php echo($paragrafo_censurato) ?></p>
-    <h3>Il paragrafo censurato è lungo <?php echo strlen($paragrafo_censurato) ?></h3>
+    <h3>Il paragrafo censurato è lungo <?php echo strlen($paragrafo) ?></h3>
 </body>
 </html>
